@@ -3,6 +3,9 @@ micronaut:
     name: encrypt-service
   server:
     port: -1
+---
+jackson:
+    bean-introspection-module: true
 
 ---
 consul:
